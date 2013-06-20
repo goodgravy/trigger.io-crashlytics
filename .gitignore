@@ -1,0 +1,9 @@
+.trigger
+plugin/manifest.json
+inspector/an-inspector.*
+inspector/ios-inspector.*
+inspector/an-inspector/ForgeInspector/
+inspector/ios-inspector/ForgeCore.bundle/
+inspector/ios-inspector/ForgeCore.framework/
+inspector/ios-inspector/ForgeInspector/
+inspector/ios-inspector/ForgeInspector.xcodeproj/

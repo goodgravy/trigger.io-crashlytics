@@ -1,0 +1,22 @@
+[
+	{
+		"do": {
+			"android_add_to_application_manifest": {
+				"element": {
+					"tag": "meta-data",
+					"attributes": {
+						"android:name": "com.crashlytics.ApiKey",
+						"android:value": "YOUR_API_KEY"
+					}
+				}
+			}
+		}
+	},
+	{
+		"do": {
+			"android_add_permission": {
+				"permission": "android.permission.INTERNET"
+			}
+		}
+	}
+]
