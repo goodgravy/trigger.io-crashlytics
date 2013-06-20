@@ -18,6 +18,8 @@ This plugin lets you identify problematic modules or plugins in your apps, and g
   * `inspector/ios-inspector/ForgeModule/crashlytics_EventListener.m`
   * `plugin/android/build_steps.json`
 * run the Inspector projects: there is an API called `crashlytics.causeCrash` which should cause events to pop up in your Crashlytics dashboard
+* **note:** errors may not appear immediately - try restarting the app and waiting a minute if you don't see events
+* (the Xcode debugger should not be attached when testing this on iOS - the app must be allowed to crash normally)
 
 ## Limitations
 To display snippets around lines where exceptions occured, Crashlytics appears to create and upload dSYM files from an Xcode Build Phase. That's not currently supported from a Trigger.io native plugin, but is on our list to support in the future. At the moment, your iOS reports aren't as useful as they might be.
