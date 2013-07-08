@@ -9,7 +9,7 @@ This plugin lets you identify problematic modules or plugins in your apps, and g
 ## Usage
 
 * sign up for [Crashlytics](https://crashlytics.com/)
-* create a new plugin in the [Trigger.io Toolkit](https://trigger.io/forge/toolkit/) called "`crashlytics`"
+* create a new plugin in the [Trigger.io Toolkit](https://trigger.io/forge/toolkit/) called `crashlytics`
 * create a new local version of that plugin
 * clone this repo
 * copy this cloned repo's files over the local version of your plugin, overwriting where applicable
