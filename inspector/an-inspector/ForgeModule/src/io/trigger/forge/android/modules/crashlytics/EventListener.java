@@ -13,5 +13,3 @@ public class EventListener extends ForgeEventListener {
 		Crashlytics.start(ForgeApp.getActivity());
 	}
 }
-
-

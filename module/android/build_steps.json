@@ -6,7 +6,7 @@
 					"tag": "meta-data",
 					"attributes": {
 						"android:name": "com.crashlytics.ApiKey",
-						"android:value": "YOUR_API_KEY"
+						"android:value": "{{modules.crashlytics.config.api_key}}"
 					}
 				}
 			}
