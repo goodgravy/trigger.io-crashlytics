@@ -1,5 +1,5 @@
 {
-    "description": "Crashlytics collects and categorises problems in your iOS and Android app running in the wild.", 
+    "description": "Crashlytics collects and categorises problems in your iOS and Android app running in the wild.\n\n[https://github.com/goodgravy/trigger.io-crashlytics/](https://github.com/goodgravy/trigger.io-crashlytics/)", 
     "name": "crashlytics", 
     "platform_version": "v2.0.0", 
     "version": "2.0"
